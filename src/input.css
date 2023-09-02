@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Exo2;
+    src: url(/dist/assets/fonts/Exo2-Regular.woff) format('woff');
+}
+@layer components{
+    .menu{
+      @apply flex font-primary font-medium text-xl gap-5 lg:gap-10 text-dark-blue;
+    }
+    .link{
+        @apply transition-all ease-in-out duration-500;
+    }
+    .link:hover{
+        @apply text-primary;
+    }
+    .link.active{
+      @apply text-primary;
+  }
+  #course_hero{
+      @apply relative after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-dark-blue after:bg-opacity-50;
+  }
+  .course_heading{
+      @apply font-primary text-dark-blue text-2xl font-bold;
+  }
+  .course_title{
+      @apply font-primary text-xl text-secondary-text;
+  }
+  .btn_primary{
+      @apply inline-block px-32 py-[10px] font-primary text-xl text-primary border border-primary rounded-lg transition-all ease-in-out duration-500;
+  }
+  .btn_primary:hover{
+      @apply bg-primary text-white
+  }
+}
+@layer base{
+    h1{
+        @apply text-4xl;
+    },
+    h2{
+      @apply text-3xl;
+    },
+    h3{
+      @apply text-2xl;
+    },
+    h4{
+      @apply text-xl;
+    },
+    h5{
+      @apply text-lg;
+    },
+    h6{
+      @apply text-base;
+    }
+}

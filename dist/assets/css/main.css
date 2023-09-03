@@ -1,0 +1,52 @@
+#course_testimonial .owl-nav{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 130%;
+}
+#course_testimonial .owl-nav button:first-child{
+    color: #ED6326;
+    border: 1px solid #ED6326;
+    border-radius: 100%;
+    font-size: 20px;
+    padding: 10px !important;
+    transition: all ease-in-out .3s;
+}
+#course_testimonial .owl-nav button:first-child:hover{
+    background-color: #ED6326;
+    color: white;
+}
+#course_testimonial .owl-nav button:last-child{
+    color: #ED6326;
+    border: 1px solid #ED6326;
+    border-radius: 100%;
+    font-size: 20px;
+    padding: 10px !important;
+    transition: all ease-in-out .3s;
+}
+#course_testimonial .owl-nav button:last-child:hover{
+    background-color: #ED6326;
+    color: white;
+}
+#course_testimonial .owl-dots{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    bottom: 5%;
+    right: 183%;
+}
+#course_testimonial .owl-dots button.owl-dot{
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #FCE1DF;
+}
+#course_testimonial .owl-dots button.owl-dot.active{
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #F16768;
+    box-shadow: 2px 6px 10px 0px #00000026;
+    transition: all ease-in-out .5s;
+}

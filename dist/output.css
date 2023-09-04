@@ -700,6 +700,21 @@ h1 {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.footer-link {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:hover {
+  --tw-text-opacity: 1;
+  color: rgb(95 95 127 / var(--tw-text-opacity));
+}
+
 .flex {
   display: flex;
 }
@@ -708,16 +723,12 @@ h1 {
   display: grid;
 }
 
-.aspect-square {
-  aspect-ratio: 1 / 1;
-}
-
-.aspect-auto {
-  aspect-ratio: auto;
-}
-
 .w-6\/12 {
   width: 50%;
+}
+
+.w-\[500px\] {
+  width: 500px;
 }
 
 .max-w-\[500px\] {
@@ -740,6 +751,10 @@ h1 {
   justify-content: flex-end;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -748,13 +763,33 @@ h1 {
   gap: 1.25rem;
 }
 
-.gap-y-12 {
-  row-gap: 3rem;
+.gap-\[150px\] {
+  gap: 150px;
+}
+
+.gap-\[70px\] {
+  gap: 70px;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.gap-\[100px\] {
+  gap: 100px;
+}
+
+.gap-\[60px\] {
+  gap: 60px;
 }
 
 .gap-x-5 {
   -moz-column-gap: 1.25rem;
        column-gap: 1.25rem;
+}
+
+.gap-y-12 {
+  row-gap: 3rem;
 }
 
 .gap-y-5 {
@@ -765,124 +800,29 @@ h1 {
   overflow-wrap: break-word;
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[u\] {
-  background-color: u;
-}
-
-.bg-\[url\] {
-  background-color: url;
-}
-
-.bg-\[url\(\'\/dist\/assets\/image\/course-hero\.png\'\)\] {
-  background-image: url('/dist/assets/image/course-hero.png');
-}
-
-.bg-\[url\(\)\] {
-  background-image: url();
-}
-
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
-
-.bg-\[url\(\'\/\'\)\] {
-  background-image: url('/');
-}
-
-.bg-\[url\(\'\/di\'\)\] {
-  background-image: url('/di');
-}
-
-.bg-\[url\(\'\/dist\'\)\] {
-  background-image: url('/dist');
-}
-
-.bg-\[url\(\'\/dist\/asse\'\)\] {
-  background-image: url('/dist/asse');
-}
-
-.bg-\[url\(\'\/dist\/assets\'\)\] {
-  background-image: url('/dist/assets');
-}
-
-.bg-\[url\(\'\/dist\/assets\/\'\)\] {
-  background-image: url('/dist/assets/');
-}
-
-.bg-\[url\(\'\/dist\/assets\/image\/\'\)\] {
-  background-image: url('/dist/assets/image/');
+.bg-dark-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 26 72 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/dist\/assets\/image\/66-bg\.png\'\)\] {
   background-image: url('/dist/assets/image/66-bg.png');
 }
 
-.bg-cover {
-  background-size: cover;
+.bg-\[url\(\'\/dist\/assets\/image\/course-hero\.png\'\)\] {
+  background-image: url('/dist/assets/image/course-hero.png');
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
-.bg-\[length\:200px_100px\] {
-  background-size: 200px 100px;
-}
-
-.bg-\[length\:300px_100px\] {
-  background-size: 300px 100px;
-}
-
-.bg-\[length\:300px_a\] {
-  background-size: 300px a;
-}
-
-.bg-\[length\:300px_auto\] {
-  background-size: 300px auto;
-}
-
-.bg-\[length\:300px\] {
-  background-size: 300px;
-}
-
-.bg-\[length\:0px\] {
-  background-size: 0px;
-}
-
-.bg-\[length\:250px\] {
-  background-size: 250px;
-}
-
-.bg-\[length\:250\] {
-  background-size: 250;
-}
-
-.bg-\[length\:250px_\] {
-  background-size: 250px;
-}
-
-.bg-\[length\:250px_270px\] {
-  background-size: 250px 270px;
-}
-
-.bg-\[length\:300px_270px\] {
-  background-size: 300px 270px;
-}
-
-.bg-\[length\:300px_250px\] {
-  background-size: 300px 250px;
-}
-
-.bg-\[length\:300px_200px\] {
-  background-size: 300px 200px;
+.bg-\[url\(\'\/dist\/assets\/image\/footer\.png\'\)\] {
+  background-image: url('/dist/assets/image/footer.png');
 }
 
 .bg-\[length\:300px_230px\] {
   background-size: 300px 230px;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-center {
@@ -897,9 +837,27 @@ h1 {
   background-repeat: no-repeat;
 }
 
+.p-\[50px\] {
+  padding: 50px;
+}
+
+.p-\[100px\] {
+  padding: 100px;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .py-28 {
   padding-top: 7rem;
   padding-bottom: 7rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-5 {
@@ -907,24 +865,83 @@ h1 {
   padding-bottom: 1.25rem;
 }
 
-.pb-24 {
-  padding-bottom: 6rem;
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
+.py-\[100px\] {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.py-\[50px\] {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.px-\[50px\] {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.px-\[800px\] {
+  padding-left: 800px;
+  padding-right: 800px;
+}
+
+.px-\[80px\] {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.px-\[100px\] {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.px-\[120px\] {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.px-\[110px\] {
+  padding-left: 110px;
+  padding-right: 110px;
 }
 
 .pb-20 {
   padding-bottom: 5rem;
 }
 
+.pt-\[50px\] {
+  padding-top: 50px;
+}
+
+.pt-\[100px\] {
+  padding-top: 100px;
+}
+
+.pb-\[50px\] {
+  padding-bottom: 50px;
+}
+
 .font-primary {
   font-family: Exo2;
 }
 
-.text-5xl {
-  font-size: 3rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 
@@ -933,40 +950,13 @@ h1 {
   line-height: 1;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-\[55px\] {
-  font-size: 55px;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-\[16px\] {
   font-size: 16px;
 }
 
-.text-\[22px\] {
-  font-size: 22px;
-}
-
-.text-\[20px\] {
-  font-size: 20px;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-xl {
@@ -978,8 +968,14 @@ h1 {
   font-weight: 700;
 }
 
-.leading-10 {
-  line-height: 2.5rem;
+.text-dark-blue {
+  --tw-text-opacity: 1;
+  color: rgb(27 26 72 / var(--tw-text-opacity));
+}
+
+.text-icon {
+  --tw-text-opacity: 1;
+  color: rgb(14 118 168 / var(--tw-text-opacity));
 }
 
 .text-secondary-text {
@@ -990,23 +986,6 @@ h1 {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[55\] {
-  color: 55;
-}
-
-.text-dark-blue {
-  --tw-text-opacity: 1;
-  color: rgb(27 26 72 / var(--tw-text-opacity));
-}
-
-.text-\[16p\] {
-  color: 16p;
 }
 
 @font-face {

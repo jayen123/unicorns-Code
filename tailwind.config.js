@@ -13,11 +13,12 @@ module.exports = {
       'red': '#F16768',
       'dark-blue': '#1B1A48',
       'white': '#FFFFFF',
-      'secondary-text': '#5F5F7F'
+      'secondary-text': '#5F5F7F',
+      'icon': '#0E76A8'
     },
     extend: {
-      fontFamily : {
-        'primary' : 'Exo2'
+      fontFamily: {
+        'primary': 'Exo2'
       },
       container: {
         center: true,

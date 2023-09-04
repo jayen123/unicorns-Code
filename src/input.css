@@ -34,6 +34,12 @@
   .btn_primary:hover{
       @apply bg-primary text-white
   }
+  .btn_secondary{
+      @apply flex justify-center items-center gap-[10px] py-3 text-sky border-2 border-border rounded-lg font-primary text-xl transition-all ease-in-out duration-500;
+  }
+  .btn_secondary:hover{
+      @apply bg-sky text-white border-transparent
+  }
   .footer-link{
       @apply text-xl text-white transition-all ease-in-out duration-300
   }

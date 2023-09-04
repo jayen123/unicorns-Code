@@ -700,6 +700,35 @@ h1 {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.btn_secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 0.5rem;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(159 159 178 / var(--tw-border-opacity));
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-family: Exo2;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(65 160 216 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn_secondary:hover {
+  border-color: transparent;
+  --tw-bg-opacity: 1;
+  background-color: rgb(65 160 216 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .footer-link {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -721,6 +750,10 @@ h1 {
 
 .grid {
   display: grid;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-6\/12 {
@@ -763,24 +796,20 @@ h1 {
   gap: 1.25rem;
 }
 
-.gap-\[150px\] {
-  gap: 150px;
+.gap-\[100px\] {
+  gap: 100px;
 }
 
-.gap-\[70px\] {
-  gap: 70px;
+.gap-\[150px\] {
+  gap: 150px;
 }
 
 .gap-\[50px\] {
   gap: 50px;
 }
 
-.gap-\[100px\] {
-  gap: 100px;
-}
-
-.gap-\[60px\] {
-  gap: 60px;
+.gap-\[70px\] {
+  gap: 70px;
 }
 
 .gap-x-5 {
@@ -837,14 +866,6 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.p-\[50px\] {
-  padding: 50px;
-}
-
-.p-\[100px\] {
-  padding: 100px;
-}
-
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -865,70 +886,20 @@ h1 {
   padding-bottom: 1.25rem;
 }
 
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
-}
-
-.py-\[100px\] {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.py-\[50px\] {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.px-\[50px\] {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.px-\[30px\] {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.px-\[800px\] {
-  padding-left: 800px;
-  padding-right: 800px;
-}
-
-.px-\[80px\] {
-  padding-left: 80px;
-  padding-right: 80px;
-}
-
-.px-\[100px\] {
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.px-\[120px\] {
-  padding-left: 120px;
-  padding-right: 120px;
-}
-
-.px-\[110px\] {
-  padding-left: 110px;
-  padding-right: 110px;
-}
-
 .pb-20 {
   padding-bottom: 5rem;
 }
 
-.pt-\[50px\] {
-  padding-top: 50px;
+.pb-\[50px\] {
+  padding-bottom: 50px;
 }
 
 .pt-\[100px\] {
   padding-top: 100px;
 }
 
-.pb-\[50px\] {
-  padding-bottom: 50px;
+.text-center {
+  text-align: center;
 }
 
 .font-primary {
@@ -962,6 +933,10 @@ h1 {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .font-bold {

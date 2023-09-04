@@ -14,7 +14,8 @@ module.exports = {
       'dark-blue': '#1B1A48',
       'white': '#FFFFFF',
       'secondary-text': '#5F5F7F',
-      'icon': '#0E76A8'
+      'icon': '#0E76A8',
+      'border': '#9F9FB2',
     },
     extend: {
       fontFamily: {

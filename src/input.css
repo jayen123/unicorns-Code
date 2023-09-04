@@ -7,6 +7,7 @@
     src: url(/dist/assets/fonts/Exo2-Regular.woff) format('woff');
 }
 @layer components{
+    /* course page componnets start here */
     .menu{
       @apply flex font-primary font-medium text-xl gap-5 lg:gap-10 text-dark-blue;
     }
@@ -29,7 +30,7 @@
       @apply font-primary text-xl text-secondary-text;
   }
   .btn_primary{
-      @apply inline-block px-32 py-[10px] font-primary text-xl text-primary border border-primary rounded-lg transition-all ease-in-out duration-500;
+      @apply inline-flex items-center gap-[10px] px-32 py-[10px] font-primary text-xl text-primary border border-primary rounded-lg transition-all ease-in-out duration-500;
   }
   .btn_primary:hover{
       @apply bg-primary text-white
@@ -46,6 +47,19 @@
   .footer-link:hover{
       @apply text-secondary-text
   }
+  /* course page componnets end here */
+  /* ================================= */
+  /* contact page componnets start here */
+  .label{
+        @apply block font-primary text-lg text-dark-blue
+  }
+  .input{
+        @apply w-full py-4 pl-3 bg-input shadow-inner border-2 rounded-lg border-secondary-text
+  }
+  .input::placeholder{
+        @apply font-primary text-lg text-secondary-text
+  }
+  /* contact page componnets End here */
 }
 @layer base{
     h1{

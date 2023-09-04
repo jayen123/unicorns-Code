@@ -16,6 +16,7 @@ module.exports = {
       'secondary-text': '#5F5F7F',
       'icon': '#0E76A8',
       'border': '#9F9FB2',
+      'input': '#DDDCE3'
     },
     extend: {
       fontFamily: {

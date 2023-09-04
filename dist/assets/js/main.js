@@ -1,3 +1,5 @@
+
+// course testimonial
 $('.owl-carousel.course_testimonial').owlCarousel({
     loop:true,
     margin:10,

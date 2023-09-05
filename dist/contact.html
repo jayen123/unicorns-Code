@@ -49,71 +49,73 @@
                 <div class="pl-20">
                     <h1 class="font-primary text-6xl font-bold text-dark-blue">Contact Us</h1>
                 </div>
-                <div class="grid lg:grid-cols-2">
-                    <div class="flex flex-col gap-20">
-                        <div>
-                            <img src="/dist/assets/image/contact.png" alt="contact">
-                        </div>
-                        <div class="flex gap-5 text-center">
-                            <div class="flex flex-col gap-7">
-                                <div>
-                                    <a class="btn_secondary" href="#">
-                                        <span class="iconify" data-icon="ic:round-phone"></span>
-                                        <span>(123)456 7890</span>
-                                    </a>
-                                </div>
-                                <div>
-                                    <p class="font-primary text-secondary-text text-sm">Our customer care is open from
-                                        Mon-Fri, 10:00 Am to 6:00 Pm</p>
-                                </div>
-                            </div>
-                            <div class="flex flex-col gap-7">
-                                <div>
-                                    <a class="btn_secondary" href="#">
-                                        <span class="iconify" data-icon="clarity:email-line"></span>
-                                        <span>hello@website.com</span>
-                                    </a>
-                                </div>
-                                <div>
-                                    <p class="font-primary text-secondary-text text-sm">Our support team will get back to in 48-H
-                                        during standard business hours.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <form action="#">
+                <div class="row flex justify-center">
+                    <div class=" w-10/12 grid lg:grid-cols-2">
+                        <div class="flex flex-col gap-20">
                             <div>
-                                <div class="flex items-center gap-5">
-                                    <label class="label" for="name">Name:</label>
-                                    <input class="input" type="text" name="name" id="name" placeholder="Type your full name here">
-                                </div>
-                                <div class="flex items-center gap-5">
-                                    <label class="label" for="email">Email:</label>
-                                    <input class="input" type="email" name="email" id="email" placeholder="ex: hello@website.com">
-                                </div>
-                                <div class="flex items-center gap-5">
-                                    <label class="label">Message:</label>
-                                    <textarea class="input" name="messege" id="" placeholder="Type your full message here."></textarea>
-                                </div>
+                                <img src="/dist/assets/image/contact.png" alt="contact">
                             </div>
-                            <div>
-                                <div>
-                                    <input type="file" name="" id="file">
-                                </div>
-                                <div>
+                            <div class="flex gap-5 text-center">
+                                <div class="flex flex-col gap-7">
                                     <div>
-                                        <a class="btn_primary" href="#">
-                                            <span class="iconify" data-icon="fa:send"></span>
-                                            <span>Send Message</span>
+                                        <a class="btn_secondary" href="#">
+                                            <span class="iconify" data-icon="ic:round-phone"></span>
+                                            <span>(123)456 7890</span>
                                         </a>
                                     </div>
                                     <div>
-                                        <p>We reply 24 hrs, Normal inquiries by <br> bot & important inquiries within an hr.</p>
+                                        <p class="font-primary text-secondary-text text-sm">Our customer care is open from
+                                            Mon-Fri, 10:00 Am to 6:00 Pm</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col gap-7">
+                                    <div>
+                                        <a class="btn_secondary" href="#">
+                                            <span class="iconify" data-icon="clarity:email-line"></span>
+                                            <span>hello@website.com</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <p class="font-primary text-secondary-text text-sm">Our support team will get back to in 48-H
+                                            during standard business hours.</p>
                                     </div>
                                 </div>
                             </div>
-                        </form>
+                        </div>
+                        <div class="flex flex-col justify-between">
+                            <form class="grid gap-5" action="#">
+                                <div class="form-box">
+                                    <label class="label" for="user_name">Name :</label>
+                                    <input class="input" type="text" name="" id="user_name" placeholder="Type your full name here">
+                                </div>
+                                <div class="form-box">
+                                    <label class="label" for="user_mail">Email :</label>
+                                    <input class="input" type="email" name="" id="user_mail" placeholder="ex: hello@website.com">
+                                </div>
+                                <div class="form-box items-baseline">
+                                    <span class="label">Message :</span>
+                                    <textarea class="input resize-none" name="" id="messege" cols="30" rows="5" placeholder="Type your full message here."></textarea>
+                                </div>
+                            </form>
+                            <div>
+                                <div class="flex justify-center mb-10">
+                                    <input type="file" name="" id="file">
+                                </div>
+                                <div class="flex justify-end">
+                                    <div class="grid gap-7 w-[420px]">
+                                        <div class="flex justify-end">
+                                            <a class="btn_primary" href="#">
+                                                <span class="iconify" data-icon="fa:send"></span>
+                                                <span>Send Message</span>
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <p class="font-primary text-secondary-text text-sm text-center">We reply 24 hrs, Normal inquiries by bot & important inquiries within an hr.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

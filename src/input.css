@@ -50,8 +50,11 @@
   /* course page componnets end here */
   /* ================================= */
   /* contact page componnets start here */
+  .form-box{
+        @apply flex items-center gap-5
+  }
   .label{
-        @apply block font-primary text-lg text-dark-blue
+        @apply w-[103px] inline-flex justify-end font-primary text-lg text-dark-blue
   }
   .input{
         @apply w-full py-4 pl-3 bg-input shadow-inner border-2 rounded-lg border-secondary-text

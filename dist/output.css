@@ -754,8 +754,16 @@ h1 {
 
 /* contact page componnets start here */
 
+.form-box {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
 .label {
-  display: block;
+  display: inline-flex;
+  width: 103px;
+  justify-content: flex-end;
   font-family: Exo2;
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -797,12 +805,20 @@ h1 {
 
 /* contact page componnets End here */
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
 
 .grid {
   display: grid;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
 }
 
 .w-6\/12 {
@@ -813,8 +829,28 @@ h1 {
   width: 500px;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[420px\] {
+  width: 420px;
+}
+
 .max-w-\[500px\] {
   max-width: 500px;
+}
+
+.resize-none {
+  resize: none;
 }
 
 .flex-col {
@@ -827,6 +863,10 @@ h1 {
 
 .items-center {
   align-items: center;
+}
+
+.items-baseline {
+  align-items: baseline;
 }
 
 .justify-end {
@@ -867,6 +907,14 @@ h1 {
 
 .gap-\[70px\] {
   gap: 70px;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .gap-x-5 {

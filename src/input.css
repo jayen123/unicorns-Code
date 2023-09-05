@@ -57,12 +57,23 @@
         @apply w-[103px] inline-flex justify-end font-primary text-lg text-dark-blue
   }
   .input{
-        @apply w-full py-4 pl-3 bg-input shadow-inner border-2 rounded-lg border-secondary-text
+        @apply w-full py-4 pl-3 bg-input shadow-inner border-2 rounded-lg border-secondary-text bg-opacity-30
   }
   .input::placeholder{
         @apply font-primary text-lg text-secondary-text
   }
   /* contact page componnets End here */
+  /* ================================ */
+  /* Gallary Page start here */
+  .horizontal{
+        @apply h-[200px] col-span-2 bg-no-repeat bg-center bg-cover
+  }
+  .square{
+        @apply col-span-2 row-span-2 bg-no-repeat bg-center bg-cover
+  }
+  .small{
+        @apply col-span-1 row-span-1 bg-no-repeat bg-center bg-cover
+  }
 }
 @layer base{
     h1{

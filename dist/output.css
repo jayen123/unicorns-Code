@@ -777,8 +777,8 @@ h1 {
   border-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgb(95 95 127 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
   background-color: rgb(221 220 227 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.3;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 0.75rem;
@@ -805,6 +805,34 @@ h1 {
 
 /* contact page componnets End here */
 
+/* ================================ */
+
+/* Gallary Page start here */
+
+.horizontal {
+  grid-column: span 2 / span 2;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.square {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.small {
+  grid-column: span 1 / span 1;
+  grid-row: span 1 / span 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -825,24 +853,12 @@ h1 {
   width: 50%;
 }
 
-.w-\[500px\] {
-  width: 500px;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
-.w-\[\] {
-  width: ;
-}
-
 .w-\[420px\] {
   width: 420px;
+}
+
+.w-\[500px\] {
+  width: 500px;
 }
 
 .max-w-\[500px\] {
@@ -853,8 +869,24 @@ h1 {
   resize: none;
 }
 
+.grid-flow-dense {
+  grid-auto-flow: dense;
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-end {
@@ -863,10 +895,6 @@ h1 {
 
 .items-center {
   align-items: center;
-}
-
-.items-baseline {
-  align-items: baseline;
 }
 
 .justify-end {
@@ -909,12 +937,8 @@ h1 {
   gap: 70px;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
+.gap-\[10px\] {
+  gap: 10px;
 }
 
 .gap-x-5 {
@@ -949,6 +973,38 @@ h1 {
 
 .bg-\[url\(\'\/dist\/assets\/image\/footer\.png\'\)\] {
   background-image: url('/dist/assets/image/footer.png');
+}
+
+.bg-\[url\(\'\/dist\/assets\/image\/gallary-1\.png\'\)\] {
+  background-image: url('/dist/assets/image/gallary-1.png');
+}
+
+.bg-\[url\(\'\/dist\/assets\/image\/gallary-2\.png\'\)\] {
+  background-image: url('/dist/assets/image/gallary-2.png');
+}
+
+.bg-\[url\(\'\/dist\/assets\/image\/gallary-3\.png\'\)\] {
+  background-image: url('/dist/assets/image/gallary-3.png');
+}
+
+.bg-\[url\(\'\/dist\/assets\/image\/gallary-4\.png\'\)\] {
+  background-image: url('/dist/assets/image/gallary-4.png');
+}
+
+.bg-\[url\(\'\/dist\/assets\/image\/gallary-5\.png\'\)\] {
+  background-image: url('/dist/assets/image/gallary-5.png');
+}
+
+.bg-\[url\(\'\/dist\/assets\/image\/gallary-6\.png\'\)\] {
+  background-image: url('/dist/assets/image/gallary-6.png');
+}
+
+.bg-\[url\(\'\/dist\/assets\/image\/gallary-7\.png\'\)\] {
+  background-image: url('/dist/assets/image/gallary-7.png');
+}
+
+.bg-\[url\(\'\/dist\/assets\/image\/gallary-8\.png\'\)\] {
+  background-image: url('/dist/assets/image/gallary-8.png');
 }
 
 .bg-\[length\:300px_230px\] {
@@ -989,6 +1045,11 @@ h1 {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-\[100px\] {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .py-\[50px\] {
